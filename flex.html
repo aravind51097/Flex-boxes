@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Boxes</title>
+    <link rel="stylesheet" href="flex.css" />
+  </head>
+  <body>
+    <!-- Flex about section -->
+    <section class="flex-desc">
+      <h1>What is a flex box?</h1>
+      <p>
+        &emsp; &emsp;The flexbox or flexible box model in CSS is a
+        one-dimensional layout model that has flexible and efficient layouts
+        with distributed spaces among items to control their alignment structure
+        ie., it is a layout model that provides an easy and clean way to arrange
+        items within a container.
+      </p>
+      <h3>==>Point to remember:</h3>
+      <ul style="padding-top: 0px">
+        <li>Flex boxes are responsive by nature.</li>
+        <li>
+          flex only works for Block elements like DIV ,Section ,Header,Footer .
+        </li>
+      </ul>
+    </section>
+
+    <!-- Flex Direction Section -->
+    <div class="flex-direction-div">
+      <h1 class="diection-h1" style="text-align: center; font-size: 50px">
+        Flex-direction
+      </h1>
+      <section class="flex-direction">
+        <h1>1. Flex-direction:row</h1>
+        <div class="flex-row">
+          <div class="flex-container-row common">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+          </div>
+        </div>
+        <div class="flex-row-reverse">
+          <h1>2. Flex-direction:row-reverse</h1>
+          <div>
+            <div class="flex-container-row-reverse common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-column">
+          <h1>3. Flex-direction:column</h1>
+          <div>
+            <div class="flex-container-column common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-column-reverse">
+          <h1>4. Flex-direction:column-reverse</h1>
+          <div>
+            <div class="flex-container-column-reverse common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Flex wrap section -->
+    <div class="flex-wrap-div">
+      <h1 style="text-align: center; font-size: 50px">Flex Wrap</h1>
+      <section class="flex-wrap">
+        <div class="flex-nowrap">
+          <h2>1.Flex nowrap:</h2>
+          <p>
+            The "flex-wrap: nowrap;" specifies that the flex items will not wrap
+            (this is default):
+          </p>
+          <div style="width: 100%" class="flex-container-nowrap common">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+            <div>17</div>
+          </div>
+        </div>
+        <div class="flex-wrap">
+          <h2>2.Flex wrap:</h2>
+          <p>
+            The wrap value specifies that the flex items will wrap if necessary:
+          </p>
+          <div style="width: 100%" class="flex-container-wrap common">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+            <div>17</div>
+          </div>
+        </div>
+        <div class="flex-wrap-reverse">
+          <h2>3.Flex wrap-reverse:</h2>
+          <p>
+            The wrap value specifies that the flex items will wrap if necessary:
+          </p>
+          <div style="width: 100%" class="flex-container-wrap-reverse common">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+            <div>17</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Justify and align section -->
+    <h1 style="text-align: center; font-size: 50px">
+      Justify-content and align-items
+    </h1>
+    <!-- 
+        Justify section
+     -->
+    <section class="about-Flex">
+      <section class="justify-content-flex">
+        <h1 style="text-align: center; font-size: 30px">Justify-content</h1>
+        <div class="desc">
+          <h2>
+            <ul>
+              <li>
+                The justify-content property is used to align the flex items.
+              </li>
+              <li>
+                It will arrange the elements according to the flex direction.
+              </li>
+            </ul>
+          </h2>
+          <hr />
+          <h3>&emsp;Property values:</h3>
+          <ul class="list-items" style="list-style: none">
+            <li>&emsp; &emsp;1.center</li>
+            <li>&emsp; &emsp;2.flex-start</li>
+            <li>&emsp; &emsp;3.flex-end</li>
+            <li>&emsp; &emsp;4.space-around</li>
+            <li>&emsp; &emsp;5.space-between</li>
+            <li>&emsp; &emsp;6.space-evenly</li>
+          </ul>
+        </div>
+        <hr />
+        <div class="flex-items">
+          <h1 style="text-align: center; font-size: xx-large">
+            flex-direction:row;
+          </h1>
+          <div class="flex-center">
+            <h1>1.justify-content:center;</h1>
+            <div class="flex-justify-center common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div class="flex-start">
+            <h1>2.justify-content:flex-start;</h1>
+            <div class="flex-justify-start common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div class="flex-end">
+            <h1>3.justify-content:flex-end;</h1>
+            <div class="flex-justify-end common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div class="flex-space-around">
+            <h1>4.justify-content:space-around;</h1>
+            <div class="flex-justify-space-around common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div class="flex-space-between">
+            <h1>5.justify-content:space-between;</h1>
+            <div class="flex-justify-space-between common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div class="flex-space-evenly">
+            <h1>6.justify-content:space-evenly;</h1>
+            <div class="flex-justify-space-evenly common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        align item section
+       -->
+      <section class="align-item-flex">
+        <h1 style="text-align: center; font-size: 30px">Align-items</h1>
+        <div class="desc">
+          <h2>
+            <ul>
+              <li>
+                The justify-content property is used to align the flex items.
+              </li>
+              <li>
+                It will align the elements opposite to the flex direction
+                mentioned.
+              </li>
+            </ul>
+          </h2>
+          <hr />
+          <h3>&emsp;Property values:</h3>
+          <ul class="list-items" style="list-style: none">
+            <li>&emsp; &emsp;1.center</li>
+            <li>&emsp; &emsp;2.flex-start</li>
+            <li>&emsp; &emsp;3.flex-end</li>
+            <li>&emsp; &emsp;4.strech</li>
+            <li>&emsp; &emsp;5.base-line</li>
+          </ul>
+        </div>
+        <hr style="margin-top: 35px" />
+        <h1 style="text-align: center; font-size: xx-large">
+          flex-direction:row;
+        </h1>
+        <div class="flex-items">
+          <div class="flex-center">
+            <h1 style="margin-top: 20px">1.align-items:center;</h1>
+            <div class="flex-align-center common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div class="flex-start">
+            <h1>2.align-items:flex-start;</h1>
+            <div class="flex-align-start common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div class="flex-end">
+            <h1>3.align-items:flex-end;</h1>
+            <div class="flex-align-end common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div class="flex-stretch">
+            <h1>4.align-items:flex-stretch;</h1>
+            <div class="flex-align-stretch common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div class="flex-baseline">
+            <h1>5.align-items:flex-baseline;</h1>
+            <div class="flex-align-baseline common">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+            <h4
+              class="line"
+              style="
+                color: black;
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+              "
+            >
+              Baseline
+            </h4>
+            <hr class="line" />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Flex Items -->
+    <h1 style="text-align: center; font-size: 60px">Flex Items</h1>
+
+    <section>
+      <div>
+        <h2>1.order</h2>
+        <h2>2.flex-grow</h2>
+        <h2>3.flex-shrink</h2>
+        <h2>4.flex-basis</h2>
+        <h2>5.flex-self</h2>
+      </div>
+
+      <div>
+        <!-- order -->
+        <section>
+          <h1></h1>
+        </section>
+        <!-- Flex-grow -->
+        <section></section>
+        <!-- flex-shrink -->
+        <section></section>
+        <!-- flex-basis -->
+        <section></section>
+        <!-- flex-self -->
+        <section></section>
+      </div>
+    </section>
+  </body>
+</html>
