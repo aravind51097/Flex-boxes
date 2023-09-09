@@ -1,5 +1,5 @@
 body {
-  background-color: #222121d5;
+  background-color: #323232d5;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -48,6 +48,10 @@ body {
 .flex-container-row-reverse {
   flex-direction: row-reverse;
 }
+.flex-container-row-revers div {
+  position: relative;
+}
+
 .flex-container-column {
   flex-direction: column;
 }
@@ -157,11 +161,10 @@ body {
   padding-left: 100px;
 }
 
-
 /* .flex-grow :nth-child(2) {
   flex-grow: 2;
 } */
-.flex-shrink div{
+.flex-shrink div {
   width: 100%;
 }
 /* .flex-shrink :nth-child(2) {
