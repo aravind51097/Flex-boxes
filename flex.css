@@ -149,3 +149,21 @@ body {
   position: relative;
   bottom: 165px;
 }
+
+/* flex item div */
+
+.flex-item-list-div {
+  border: 2px solid white;
+  padding-left: 100px;
+}
+
+
+/* .flex-grow :nth-child(2) {
+  flex-grow: 2;
+} */
+.flex-shrink div{
+  width: 100%;
+}
+/* .flex-shrink :nth-child(2) {
+  flex-shrink: 2;
+} */
